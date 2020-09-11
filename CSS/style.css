@@ -1,0 +1,75 @@
+/*styling.css*/
+body{
+    font: Arial, Helvetica, sans-serif;
+
+  }
+
+#container {
+    /*template*/
+     width: 1300px;
+  // border: 1px solid grey;
+     margin: 0 auto;
+
+     /* backgrount picture */
+         background-image: url(../images_background/2.jpg);
+         height: 100vh;
+         background-size: cover;
+         background-position:center
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+
+}
+
+#title{
+    float:left;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 100;
+    padding: 20px 30px 0 70px;
+
+
+    color: white;
+    text-decoration: none;
+}
+
+#menu{
+    float: right;
+    width: 500px;
+    height: 10px;
+    padding: 50px 20px 0 20px;
+      //  margin-top: 20px;
+}
+
+
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    border:1px solid #fff;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#name_business {
+     margin: auto;
+     width: 50%;
+     border: 2px solid blue;
+     padding: 0px;
+     background: linear-gradient(blue, black);
+     margin-top: 180px;
+
+
+}

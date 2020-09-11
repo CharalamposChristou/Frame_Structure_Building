@@ -1,0 +1,12 @@
+#container{
+    //the background do not work
+    background-image: url("../images_background/1.jpg");
+    //background-color: lightblue;
+}
+
+#images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
